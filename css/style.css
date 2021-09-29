@@ -1,0 +1,246 @@
+* {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	vertical-align: baseline;
+	background: transparent;
+	font-weight: normal;
+	text-decoration: none;
+	outline: none;
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}
+ol, ul {
+	list-style: none;
+}
+del {
+	text-decoration: line-through;
+}
+body {
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-size: 17px;
+	color: #1C2C40;
+	overflow-x: hidden;
+	min-width: 320px;
+	font-weight: 400;
+}
+input,textarea,select{
+	font-family: "Circular-Std-Regular", Arial, Helvetica, sans-serif;
+	font-weight: 400;
+}
+
+a{
+	color: #1C2C40;
+}
+a:hover,.submit:hover{
+	filter: alpha(opacity = 85);
+	-moz-opacity: 0.85;
+	-khtml-opacity: 0.85;
+	opacity: 0.85;
+}
+.thumb{
+	display: block;
+}
+.thumb img{
+	display: block;
+	width:100%;
+}
+p{
+	line-height:1.6em;
+	font-size: 16px;
+	font-family: "Circular-Std-Regular", Arial;
+	font-weight: 400;
+}
+.hidden{
+	display:none;
+}
+br.clear {
+	clear: both;
+	line-height: 0;
+}
+.wrapper {
+	width: 90%;
+	margin: 0 auto;
+	max-width:1280px;
+}
+@font-face {
+	font-family: 'Circular-Std-Regular';
+	src:url('../fonts/CircularStd-Regular.woff2') format('woff2');
+	src:url('../fonts/CircularStd-Regular.woff') format('woff');
+	font-style: normal;
+}
+@font-face {
+    font-family: 'Circular-Std-Bold';
+    src: url("../fonts/CircularStd-Bold.woff2") format("woff2");
+    src: url("../fonts/CircularStd-Bold.woff") format("woff");
+    font-style: normal
+}
+section#home{
+	padding: 25px 0;
+}
+section#home header{
+	display: flex;
+	justify-content: space-between;
+	width: 100%;
+	align-items: center;
+}
+section#home header h1{
+	width: 85px;
+}
+section#home header h1 a{
+	width: 100%;
+	display: block;
+}
+section#home header h1 a img{
+	width: 100%;
+	display: block;
+}
+section#home header nav.left{
+}
+section#home header nav.left ul{
+	display: flex;
+	justify-content: space-between;
+}
+section#home header nav.left ul li{
+	margin-right: 30px;
+}
+section#home header nav.left ul li:last-child{
+	margin-right: 0;
+}
+section#home header nav.left ul li a{
+	font-weight: 900;
+}
+section#home header nav.right{
+}
+section#home header nav.right ul{
+	display: flex;
+	justify-content: space-between;
+}
+section#home header nav.right ul li{
+	margin-right: 30px;
+}
+section#home header nav.right ul li:last-child{
+	margin-right: 0;
+}
+section#home header nav.right ul li a{
+	font-weight: 900;
+}
+section#home header nav.right ul li a.button{
+	color: blue;
+	padding: 10px 20px;
+	border: 1px solid #000;
+	border-radius: 25px;
+}
+section#spot{
+	display: flex;
+	justify-content: space-between;
+}
+section#spot section.left{
+	margin-top: 150px;
+	width: 46%;
+}
+section#spot section.left h3{
+	font-size: 60px;
+	font-weight: 900;
+	margin-bottom: 50px;
+}
+section#spot section.left p{
+	font-size: 20px;
+	font-weight: 700;
+	margin-bottom: 50px;
+}
+section#spot section.left a.button{
+	background: blue;
+	color: #fff;
+	padding: 20px 50px;
+	font-size: 20px;
+	border-radius: 35px;
+}
+section#spot section.left ul{
+	margin-top: 50px;
+}
+section#spot section.left ul li{
+	display: flex;
+	align-items: center;
+	width: 65%;
+	margin-bottom: 20px;
+}
+section#spot section.left ul li div.img{
+	width: 20px;
+	margin-right: 10px;
+}
+section#spot section.left ul li div.img img{
+	width: 100%;
+	display: flex;
+}
+section#spot section.left ul li p{
+	margin-bottom: 0;
+}
+section#spot section.right{
+	width: 46%;
+	padding: 100px 0;
+}
+section#spot section.right div.bg{
+	background: #B2BEB5;
+	width: 35%;
+	height: 83%;
+	position: absolute;
+	margin:7% 0 0 15%;
+}
+section#spot section.right div.dot{
+	position: absolute;
+	top: 85%;
+	left: 80%;
+}
+section#spot section.right div.dot img{
+}
+section#spot section.right div.image{
+	position: absolute;
+	width: 30%;
+	top: 26%;
+	left: 61%;
+}
+section#spot section.right div.image img{
+	width: 100%;
+}
+section#spot section.right div.content{
+	position: absolute;
+	background: #0a083a;
+	color: #fff;
+	width: 30%;
+	position: absolute;
+	padding: 40px 40px;
+	top: 88%;
+	left: 50%;
+	border-radius: 5px;
+}
+section#spot section.right div.content p{
+}
+section#spot section.right div.quote{
+	width: 70px;
+	position: absolute;
+	top: 85%;
+	left: 47%;
+}
+section#spot section.right div.quote img{
+	width: 100%;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
